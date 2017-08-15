@@ -1,0 +1,8 @@
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\obj\Debug\SqlBuilder.Console.csprojResolveAssemblyReference.cache
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\bin\Debug\SqlBuilder.Console.exe.config
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\bin\Debug\SqlBuilder.Console.exe
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\bin\Debug\SqlBuilder.Console.pdb
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\bin\Debug\SqlStatementBuilder.dll
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\bin\Debug\SqlStatementBuilder.pdb
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\obj\Debug\SqlBuilder.Console.exe
+F:\Projects\SqlCommandQueryBuilder\SqlBuilder.Console\obj\Debug\SqlBuilder.Console.pdb

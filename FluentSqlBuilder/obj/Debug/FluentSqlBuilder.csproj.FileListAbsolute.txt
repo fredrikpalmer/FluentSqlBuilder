@@ -1,0 +1,10 @@
+F:\Projects\SqlCommandQueryBuilder\SqlStatementBuilder\bin\Debug\SqlStatementBuilder.dll
+F:\Projects\SqlCommandQueryBuilder\SqlStatementBuilder\bin\Debug\SqlStatementBuilder.pdb
+F:\Projects\SqlCommandQueryBuilder\SqlStatementBuilder\obj\Debug\FluentSqlBuilder.csprojResolveAssemblyReference.cache
+F:\Projects\SqlCommandQueryBuilder\SqlStatementBuilder\obj\Debug\SqlStatementBuilder.dll
+F:\Projects\SqlCommandQueryBuilder\SqlStatementBuilder\obj\Debug\SqlStatementBuilder.pdb
+F:\Projects\FluentSqlBuilder\FluentSqlBuilder\obj\Debug\FluentSqlBuilder.csprojResolveAssemblyReference.cache
+F:\Projects\FluentSqlBuilder\FluentSqlBuilder\bin\Debug\FluentSqlBuilder.dll
+F:\Projects\FluentSqlBuilder\FluentSqlBuilder\bin\Debug\FluentSqlBuilder.pdb
+F:\Projects\FluentSqlBuilder\FluentSqlBuilder\obj\Debug\FluentSqlBuilder.dll
+F:\Projects\FluentSqlBuilder\FluentSqlBuilder\obj\Debug\FluentSqlBuilder.pdb
