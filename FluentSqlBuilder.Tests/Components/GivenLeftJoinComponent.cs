@@ -13,7 +13,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenEmpty()
             {
                 var result = new LeftJoinComponent("")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result.Trim() == "LEFT JOIN");
             }
@@ -22,7 +22,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenNotEmpty()
             {
                 var result = new LeftJoinComponent("Table")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result == "LEFT JOIN Table");
             }
@@ -30,7 +30,7 @@ namespace FluentSqlBuilder.Tests.Components
             [Test]
             public void ItShouldThrowWhenNull()
             {
-                Assert.Throws<ArgumentException>(() => new LeftJoinComponent(null).Build());
+                Assert.Throws<ArgumentException>(() => new LeftJoinComponent(null).GetValue());
             }
         }
     }

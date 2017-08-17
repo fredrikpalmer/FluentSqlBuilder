@@ -2,6 +2,6 @@
 {
     public interface ISqlComponent
     {
-        string Build();
+        string GetValue();
     }
 }

@@ -13,7 +13,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenEmpty()
             {
                 var result = new FromComponent("")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result.Trim() == "FROM");
             }
@@ -22,7 +22,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenNotEmpty()
             {
                 var result = new FromComponent("Users")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result == "FROM Users");
             }
@@ -30,7 +30,7 @@ namespace FluentSqlBuilder.Tests.Components
             [Test]
             public void ItShouldThrowWhenNull()
             {
-                Assert.Throws<ArgumentException>(() => new FromComponent(null).Build());
+                Assert.Throws<ArgumentException>(() => new FromComponent(null).GetValue());
             }
         }
     }

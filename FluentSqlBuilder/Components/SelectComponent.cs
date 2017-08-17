@@ -14,7 +14,7 @@ namespace FluentSqlBuilder.Components
             Columns = columns;
         }
 
-        public string Build()
+        public string GetValue()
         {
             return $"{SqlKeywords.Select} {Columns}";
         }

@@ -13,7 +13,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenEmpty()
             {
                 var result = new InnerJoinComponent("")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result.Trim() == "INNER JOIN");
             }
@@ -22,7 +22,7 @@ namespace FluentSqlBuilder.Tests.Components
             public void ItShouldMatchStringWhenNotEmpty()
             {
                 var result = new InnerJoinComponent("Table")
-                        .Build();
+                        .GetValue();
 
                 Assert.That(result == "INNER JOIN Table");
             }
@@ -30,7 +30,7 @@ namespace FluentSqlBuilder.Tests.Components
             [Test]
             public void ItShouldThrowWhenNull()
             {
-                Assert.Throws<ArgumentException>(() => new InnerJoinComponent(null).Build());
+                Assert.Throws<ArgumentException>(() => new InnerJoinComponent(null).GetValue());
             }
         }
     }

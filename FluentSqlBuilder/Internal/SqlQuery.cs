@@ -20,12 +20,12 @@ namespace FluentSqlBuilder.Internal
             Components.Add(component);
         }
 
-        public string Build()
+        public string GetQuery()
         {
             var sb = new StringBuilder();
             foreach (var item in Components)
             {
-                sb.Append($"{item.Build()} ");
+                sb.Append($"{item.GetValue()} ");
             }
 
             return sb.ToString();

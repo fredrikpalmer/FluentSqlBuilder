@@ -56,7 +56,7 @@ namespace FluentSqlBuilder
 
         public string Build()
         {
-            return Query.Build();
+            return Query.GetQuery();
         }
     }
 }

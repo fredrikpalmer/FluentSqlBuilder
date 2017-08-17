@@ -14,7 +14,7 @@ namespace FluentSqlBuilder.Components
             TableName = tableName;
         }
 
-        public string Build()
+        public string GetValue()
         {
             return $"{SqlKeywords.RightJoin} {TableName}";
         }
