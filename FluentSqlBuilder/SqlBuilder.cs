@@ -42,9 +42,9 @@ namespace FluentSqlBuilder
             return this;
         }
 
-        public ISqlBuilder On(string column)
+        public ISqlBuilder On(string condition)
         {
-            Query.AddComponent(new OnConditionComponent(column));
+            Query.AddComponent(new OnConditionComponent(condition));
             return this;
         }
 

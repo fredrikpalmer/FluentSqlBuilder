@@ -5,18 +5,18 @@ namespace FluentSqlBuilder.Components
 {
     public class OnConditionComponent : ISqlComponent
     {
-        public string Column { get; set; }
+        public string Condition { get; set; }
 
-        public OnConditionComponent(string column)
+        public OnConditionComponent(string condition)
         {
-            Guard.Null(column, "Condition cannot be null.");
+            Guard.Null(condition, "Condition cannot be null.");
 
-            Column = column;
+            Condition = condition;
         }
 
         public string GetValue()
         {
-            return $"{SqlKeywords.On} {Column}";
+            return $"{SqlKeywords.On} {Condition}";
         }
     }
 }
