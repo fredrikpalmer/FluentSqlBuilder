@@ -20,7 +20,7 @@ namespace FluentSqlBuilder.Internal
             Components.Add(component);
         }
 
-        public string GetQuery()
+        public string Build()
         {
             var sb = new StringBuilder();
             foreach (var item in Components)

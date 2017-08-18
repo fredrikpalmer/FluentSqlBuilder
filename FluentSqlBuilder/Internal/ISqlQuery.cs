@@ -6,6 +6,6 @@ namespace FluentSqlBuilder.Internal
     {
         void AddComponent(ISqlComponent component);
 
-        string GetQuery();
+        string Build();
     }
 }

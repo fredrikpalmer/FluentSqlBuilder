@@ -11,7 +11,7 @@
                 .InnerJoin("Orders AS o")
                 .On("o.UserId=u.UserId")
                 .Where("u.UserId=@UserId")
-                .Build();
+                .GetQuery();
 
             System.Console.WriteLine(sqlString);
 

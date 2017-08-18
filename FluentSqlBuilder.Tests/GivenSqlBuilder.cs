@@ -11,7 +11,7 @@ namespace FluentSqlBuilder.Tests
             public void ItShouldReturnSqlString()
             {
                 var sqlBuilder = new SqlBuilder();
-                var sqlString = sqlBuilder.Select("*").From("Users AS u").Build();
+                var sqlString = sqlBuilder.Select("*").From("Users AS u").GetQuery();
 
                 Assert.That(sqlString.Trim() == "SELECT * FROM Users AS u");
             }
@@ -23,7 +23,7 @@ namespace FluentSqlBuilder.Tests
             public void ItShouldReturnEmpty()
             {
                 var sqlBuilder = new SqlBuilder();
-                var sqlString = sqlBuilder.Build();
+                var sqlString = sqlBuilder.GetQuery();
 
                 Assert.That(sqlString.Trim() == "");
             }

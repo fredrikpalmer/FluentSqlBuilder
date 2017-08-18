@@ -16,6 +16,6 @@
 
         ISqlBuilder Where(string condition);
 
-        string Build();
+        string GetQuery();
     }
 }
